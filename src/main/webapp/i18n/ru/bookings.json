@@ -1,0 +1,29 @@
+{
+  "jbookingApp": {
+    "bookings": {
+      "home": {
+        "title": "Bookings",
+        "createLabel": "Создать новый Bookings",
+        "createOrEditLabel": "Создать или отредактировать Bookings",
+        "notFound": "No Bookings found"
+      },
+      "created": "Новый Bookings создан с идентификатором {{ param }}",
+      "updated": "Bookings обновлен с идентификатором {{ param }}",
+      "deleted": "Bookings удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Bookings {{ id }}?"
+      },
+      "detail": {
+        "title": "Bookings"
+      },
+      "roomId": "Room Id",
+      "login": "Login",
+      "beginDate": "Begin Date",
+      "endDate": "End Date",
+      "createDate": "Create Date",
+      "updateDate": "Update Date",
+      "deleteDate": "Delete Date",
+      "roomId": "Room Id"
+    }
+  }
+}

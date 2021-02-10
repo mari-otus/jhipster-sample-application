@@ -1,0 +1,40 @@
+{
+  "name": "Profiles",
+  "fields": [
+    {
+      "fieldName": "login",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mobilePhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isEmailNotify",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isPhoneNotify",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210210170236",
+  "entityTableName": "profiles",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

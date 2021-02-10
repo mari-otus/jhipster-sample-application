@@ -1,0 +1,26 @@
+{
+  "jbookingApp": {
+    "profiles": {
+      "home": {
+        "title": "Profiles",
+        "createLabel": "Создать новый Profiles",
+        "createOrEditLabel": "Создать или отредактировать Profiles",
+        "notFound": "No Profiles found"
+      },
+      "created": "Новый Profiles создан с идентификатором {{ param }}",
+      "updated": "Profiles обновлен с идентификатором {{ param }}",
+      "deleted": "Profiles удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Profiles {{ id }}?"
+      },
+      "detail": {
+        "title": "Profiles"
+      },
+      "login": "Login",
+      "email": "Email",
+      "mobilePhone": "Mobile Phone",
+      "isEmailNotify": "Is Email Notify",
+      "isPhoneNotify": "Is Phone Notify"
+    }
+  }
+}

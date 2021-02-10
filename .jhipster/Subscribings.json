@@ -1,0 +1,54 @@
+{
+  "name": "Subscribings",
+  "fields": [
+    {
+      "fieldName": "roomId",
+      "fieldType": "Integer",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "login",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "deleteDate",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "rooms",
+      "otherEntityRelationshipName": "subscribings",
+      "relationshipName": "roomId",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210210170336",
+  "entityTableName": "subscribings",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
