@@ -1,0 +1,28 @@
+{
+  "jbookingApp": {
+    "rooms": {
+      "home": {
+        "title": "Rooms",
+        "createLabel": "Создать новый Rooms",
+        "createOrEditLabel": "Создать или отредактировать Rooms",
+        "notFound": "No Rooms found"
+      },
+      "created": "Новый Rooms создан с идентификатором {{ param }}",
+      "updated": "Rooms обновлен с идентификатором {{ param }}",
+      "deleted": "Rooms удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Rooms {{ id }}?"
+      },
+      "detail": {
+        "title": "Rooms"
+      },
+      "roomName": "Room Name",
+      "capacity": "Capacity",
+      "hasConditioner": "Has Conditioner",
+      "hasVideoconference": "Has Videoconference",
+      "createDate": "Create Date",
+      "updateDate": "Update Date",
+      "deleteDate": "Delete Date"
+    }
+  }
+}

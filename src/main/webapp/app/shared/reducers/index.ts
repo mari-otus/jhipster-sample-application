@@ -13,6 +13,22 @@ import password, { PasswordState } from 'app/modules/account/password/password.r
 import settings, { SettingsState } from 'app/modules/account/settings/settings.reducer';
 import passwordReset, { PasswordResetState } from 'app/modules/account/password-reset/password-reset.reducer';
 import sessions, { SessionsState } from 'app/modules/account/sessions/sessions.reducer';
+// prettier-ignore
+import rooms, {
+  RoomsState
+} from 'app/entities/rooms/rooms.reducer';
+// prettier-ignore
+import bookings, {
+  BookingsState
+} from 'app/entities/bookings/bookings.reducer';
+// prettier-ignore
+import profiles, {
+  ProfilesState
+} from 'app/entities/profiles/profiles.reducer';
+// prettier-ignore
+import subscribings, {
+  SubscribingsState
+} from 'app/entities/subscribings/subscribings.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -27,6 +43,10 @@ export interface IRootState {
   readonly password: PasswordState;
   readonly settings: SettingsState;
   readonly sessions: SessionsState;
+  readonly rooms: RoomsState;
+  readonly bookings: BookingsState;
+  readonly profiles: ProfilesState;
+  readonly subscribings: SubscribingsState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -43,6 +63,10 @@ const rootReducer = combineReducers<IRootState>({
   password,
   settings,
   sessions,
+  rooms,
+  bookings,
+  profiles,
+  subscribings,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 });

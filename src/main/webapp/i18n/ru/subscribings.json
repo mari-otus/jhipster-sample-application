@@ -1,0 +1,27 @@
+{
+  "jbookingApp": {
+    "subscribings": {
+      "home": {
+        "title": "Subscribings",
+        "createLabel": "Создать новый Subscribings",
+        "createOrEditLabel": "Создать или отредактировать Subscribings",
+        "notFound": "No Subscribings found"
+      },
+      "created": "Новый Subscribings создан с идентификатором {{ param }}",
+      "updated": "Subscribings обновлен с идентификатором {{ param }}",
+      "deleted": "Subscribings удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Subscribings {{ id }}?"
+      },
+      "detail": {
+        "title": "Subscribings"
+      },
+      "roomId": "Room Id",
+      "login": "Login",
+      "createDate": "Create Date",
+      "updateDate": "Update Date",
+      "deleteDate": "Delete Date",
+      "roomId": "Room Id"
+    }
+  }
+}
