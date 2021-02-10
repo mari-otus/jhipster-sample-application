@@ -1,0 +1,50 @@
+
+entity Rooms {
+    id                  Long required,
+    roomName           String required,
+    capacity            Integer  required,
+    hasConditioner     Boolean,
+    hasVideoconference Boolean,
+    createDate         ZonedDateTime required,
+    updateDate         ZonedDateTime,
+    deleteDate         ZonedDateTime
+}
+
+entity Bookings
+{
+    id          Integer required,
+    roomId     Integer required,
+    login       String  required,
+    beginDate  ZonedDateTime required,
+    endDate    ZonedDateTime required,
+    createDate ZonedDateTime required,
+    updateDate ZonedDateTime,
+    deleteDate ZonedDateTime
+}
+
+relationship ManyToOne {
+	Bookings{roomId} to Rooms
+}
+
+entity Profiles {
+    id          Integer required,
+    login       String  required,
+    email           String,
+    mobilePhone    String,
+    isEmailNotify Boolean,
+    isPhoneNotify Boolean
+}
+
+entity Subscribings
+{
+    id          Integer required,
+    roomId     Integer required,
+    login       String  required,
+    createDate ZonedDateTime required,
+    updateDate ZonedDateTime,
+    deleteDate ZonedDateTime
+}
+
+relationship ManyToOne {
+	Subscribings{roomId} to Rooms
+}
